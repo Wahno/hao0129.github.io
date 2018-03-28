@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="风吹新花入晚楼">
 <meta property="og:description" content="主要技术  git node.js hexo python GitHub">
 <meta property="og:locale" content="zh_Hans">
-<meta property="og:updated_time" content="2018-03-27T07:43:08.779Z">
+<meta property="og:updated_time" content="2018-03-28T09:54:52.452Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="建站心得">
 <meta name="twitter:description" content="主要技术  git node.js hexo python GitHub">
@@ -190,7 +190,7 @@
         <p>主要技术</p>
 <ul>
 <li><a href="https://git-scm.com/" title="git" target="_blank" rel="noopener">git</a></li>
-<li><a href="https://nodejs.org/en/" title="node.js" target="_blank" rel="noopener">node.js</a></li>
+<li><a href="https://nodejs.org/" title="node.js" target="_blank" rel="noopener">node.js</a></li>
 <li><a href="https://hexo.io/" title="hexo" target="_blank" rel="noopener">hexo</a></li>
 <li><a href="https://www.python.org/" title="python" target="_blank" rel="noopener">python</a></li>
 <li><a href="https://github.com/" title="github" target="_blank" rel="noopener">GitHub</a></li>
@@ -219,8 +219,13 @@
 </ol>
 <hr>
 <p><strong>记录一下建站过程中遇到的坑：</strong></p>
-<p>待续。。。</p>
-<p align="right">最后更新日期：2018/3/27 15:43:06 </p> 
+<ol>
+<li>在相册页搭建过程中，因为本地没有pillow库，而且我同时安装了python2和python3,所以在使用pip的时候出现了一些问题。如果安装了pillow库依然报找不到PIL的错误，尝试将python2卸载。必要时重新安装python3。</li>
+<li>因为使用了yilia主题，该主题并不兼容IE,实测相册页在Firefox和Microsoft Edge中不兼容（其他页面正常），推荐使用Chrome。</li>
+<li>图片的命名规则应该为年-月-日_名称.png/jpg,并且名字中只能有一个下划线。否则不能成功剪切图片。名称即为图片描述。</li>
+<li>待续。。。</li>
+</ol>
+<p align="right">最后更新日期：2018/3/28 17:53:49 </p> 
       
 
       
