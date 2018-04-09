@@ -168,6 +168,91 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-netkeeper破解方法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/09/netkeeper破解方法/">netkeeper破解方法</a>
+    </h1>
+  
+
+        
+        <a href="/2018/04/09/netkeeper破解方法/" class="archive-article-date">
+  	<time datetime="2018-04-09T13:14:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-09</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><em>关于NK破解的摸索与心得</em></p>
+<p>方法一：现成软件<br><br>SimpleNetkeeper (由个人维护的软件,授权免费,有心跳授权)或sntk 50元(并不推荐)<br><br><br>方法二：路由加手机拨号破解<br></p>
+<p>工具：路由一台，手机一台<br><br>具体方法：将宽带接到路由的lan口（随便一个），手机连接wifi后下载安卓版NK，拨号后usb共享至电脑后开热点（电脑需要更新NDIS驱动，选择microsoft下的远程NDIS兼容设备）或Totolink A3004NS(某猫售价299（暂时没发现其他路由有这功能）)</p>
+<p>方法三：openwrt路由插件拨号<br></p>
+<p>先刷入不死breed，再更新固件（切记）<br><br>目前已实验三个固件可进行拨号上网：<br><br>PandoraBox<br><br>OpenWrt(推荐)<br><br>以上两个固件NK插件自行编译或下载：<br><br><a href="https://github.com/miao1007/Openwrt-NetKeeper" target="_blank" rel="noopener">https://github.com/miao1007/Openwrt-NetKeeper</a>（引用miao学长的源码，侵删）<br><br>使用winscp上传至路由<br><br>sxplugin.so -&gt; /usr/lib/pppd/2.4.7/<br><br>confnetwork.sh -&gt; /tmp/<br><br><br>配置路由器<br><br>脚本：<br><br>chmod a+x /tmp/confnetwork.sh<br><br>sh /tmp/confnetwork.sh<br></p>
+<p>同步路由器时间后重播就可以快乐的上网了<br>Padavan（自带NK插件）<br></p>
+<p>方法四：电脑拨号并软件破解NK限制开热点</p>
+<p><br><br><br><br>未经允许，不得转载！</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技术</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">netkeeper</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/04/09/netkeeper破解方法/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-GitHub入门" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -201,11 +286,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技术</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">GitHub</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">GitHub</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技术</a>
         		</li>
       		
 		</ul>
@@ -496,15 +581,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">GitHub</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">技术</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+                <a href="javascript:void(0)" class="js-tag color5">netkeeper</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">GitHub</a>
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
               </li>
             
             <div class="clearfix"></div>
